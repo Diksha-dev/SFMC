@@ -26,7 +26,7 @@ define([
     }
 
     function initialize(data) {
-        console.log(data);
+        console.log("data"+data);
         if (data) {
             payload = data;
         }
