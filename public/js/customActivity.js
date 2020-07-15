@@ -40,7 +40,7 @@ define([
 
         var inArguments = hasInArguments ? payload['arguments'].execute.inArguments : {};
 
-        console.log(inArguments);
+        console.log("Arguments"+inArguments);
 
         $.each(inArguments, function (index, inArgument) {
             $.each(inArgument, function (key, val) {
@@ -57,12 +57,12 @@ define([
     }
 
     function onGetTokens(tokens) {
-        console.log(tokens);
+        console.log("Tokens"+tokens);
         authTokens = tokens;
     }
 
     function onGetEndpoints(endpoints) {
-        console.log(endpoints);
+        console.log("endpoint"+endpoints);
     }
 
     function save() {
