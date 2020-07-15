@@ -67,9 +67,7 @@
         "arguments": {
             "execute": {
                 "inArguments": [
-			{
-          "emailAddress": "{{Contact.Default.Email}}"
-        }
+	
  ],
                 "outArguments": []
             }
